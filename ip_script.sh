@@ -1,2 +1,3 @@
 #!/bin/sh
-nmap -sn 10.13.0.0/16
+IP_ADDRESS=$1
+nmap -sn $IP_ADDRESS/16
